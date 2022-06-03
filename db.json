@@ -1,0 +1,41 @@
+{
+"clientes":[
+    {
+    "id":1,
+    "nome":"jose Da Silva",
+    "email":"jose@gmail.com",
+    "fone":"1234567"
+    },
+    {
+    "id":2,
+    "nome":"ana Da Silva",
+    "email":"ana@gmail.com",
+    "fone":"8934567"
+    },
+    {
+        "id":2,
+        "nome":"ana Da Silva",
+        "email":"ana@gmail.com",
+        "fone":"8934567"
+        }
+],
+"produtos":[
+    {
+        "id":1,
+        "nome": "Banana",
+        "preco":15
+
+
+    },
+    {"id":2,
+        "nome": "uva",
+        "preco":10
+    },
+    {"id":3,
+        "nome": "maçã",
+        "preco":2}
+]
+
+}
+
+
