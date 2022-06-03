@@ -9,13 +9,17 @@
 <body>
     <button onclick="load()">pesquisar</button>
   <div>
-    <thead>
-        <tr>
-            <th>id</th>
-            <th>nome</th>
-            <th>preço</th>
-        </tr>
-    </thead>
+      <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>nome</th>
+                <th>preço</th>
+            </tr>
+            <tbody id="tabela"></tbody>
+        </thead>
+      </table>
+    
 
   </div>  
 
@@ -25,12 +29,23 @@
         function load() {
             fetch("http://localhost:3000/produtos")
             .then(x => x.json())
-            .then(y => teste(y))
+            .then(y => display(y))
+        }
 
 
-            function teste(dados) {
+            function display(dados) {
                 console.log(dados);
+                var linhas =''
+                for(let i = 0; i < dados.length; i++){
+                    linhas +=
+                `<tr><td>${dados[i].id}</td>
+                    <td>${dados[i].nome}</td>
+                        <td>${dados[i].preco}</td>
+                        
+                            </tr>`
+
             }
+            document.getElementById("tabela").innerHTML = linhas
 
         }
     </script>
