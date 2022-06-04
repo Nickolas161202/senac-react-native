@@ -2,12 +2,33 @@ iframe{
     width: 100%;
     height: 90vh
 }
-.botoes{
+nav{
     display: flex;
-   height: 5vh;
-    padding-left: 30%;
-    padding-top: 30px;
+    height: 5vh;
+     padding-left: 30%;
+     padding-top: 30px;
+     background-color:darkslateblue;
+     
+ }
+
+     
+
+ 
+ a{
+     
+
+justify-content: center;
+text-decoration: none;
+color: white;
+font-size: larger;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+width: 20%;
+
+
 }
-.botoes a{
-padding-left: 200px;
-justify-content: center;}
+a:hover{
+    background-color: springgreen;
+}
+body{
+    background-color:slategrey;
+}

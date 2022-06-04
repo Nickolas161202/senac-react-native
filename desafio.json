@@ -1,0 +1,71 @@
+{
+    "venda":[    {
+        "id":1,
+        "data": "01/06/2022",
+
+
+    "cliente":{
+        "nome":"nickolas",
+        "idade":18,
+        "email":"xistonickolas@gmail.com"
+        
+    },
+    "produtos":[
+        {
+            "id":1,
+            "descricao":"abacate",
+            "preco":15
+
+        },
+        {
+            "id":2,
+            "descricao":"mamão",
+            "preco":16
+
+        },
+        {
+            "id":3,
+            "descricao":"cenoura",
+            "preco":17
+
+        }
+    ]
+
+    },
+    {
+        "id":2,
+        "data": "01/06/2022",
+
+
+    "cliente":{
+        "nome":"nickolas",
+        "idade":18,
+        "email":"xistonickolas@gmail.com"
+        
+    },
+    "produtos":[
+        {
+            "id":1,
+            "descricao":"abacate",
+            "preco":15
+
+        },
+        {
+            "id":2,
+            "descricao":"mamão",
+            "preco":16
+
+        },
+        {
+            "id":3,
+            "descricao":"cenoura",
+            "preco":17
+
+        }
+    ]
+
+    }
+]
+    
+
+}
