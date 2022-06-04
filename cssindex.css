@@ -1,0 +1,13 @@
+iframe{
+    width: 100%;
+    height: 90vh
+}
+.botoes{
+    display: flex;
+   height: 5vh;
+    padding-left: 30%;
+    padding-top: 30px;
+}
+.botoes a{
+padding-left: 200px;
+justify-content: center;}
