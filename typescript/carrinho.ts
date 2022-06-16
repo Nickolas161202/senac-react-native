@@ -17,3 +17,4 @@ var Ccompras: produtos = {
 Ccompras.descricao = 'tomate'
 Ccompras.preco = 8
 Ccompras.quantidade = 2
+console.log(Ccompras);
