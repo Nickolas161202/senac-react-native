@@ -12,3 +12,8 @@ var Ccompras: produtos = {
     preco:0
     
 }
+
+
+Ccompras.descricao = 'tomate'
+Ccompras.preco = 8
+Ccompras.quantidade = 2
